@@ -8,17 +8,9 @@ const HeaderSection = () => {
          <div className="header-name">DESIGN YOUR LIFE 1.0</div>
          <div className="header-text">Build purpose-driven systems to derive optimum results in 2025</div>
        </div> 
-      </div>
-
-    
-          
-
-      
+      </div>          
     );
   }
-
-
-
 
 
 export default HeaderSection;
