@@ -4,7 +4,7 @@ const NameSection = () => {
 
   return (
     <div className="name-section">
-       <div>
+       <div className="name">
           <label for="name">First Name</label>
           <input type="text" id="fname" name="name"></input>
        </div>

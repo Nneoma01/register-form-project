@@ -1,4 +1,4 @@
-.name-section{
+.email-section{
     width: 90%;
     border-radius: 20px;  
     margin: 30px auto;  
@@ -14,6 +14,6 @@ input[type=text] {
     border: none;
     border-bottom: 1px solid black;
 }
-.name{
+.email{
     padding: 20px;
 }

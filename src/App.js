@@ -1,4 +1,5 @@
 import './App.css';
+import EmailSection from './components/email';
 import HeaderSection from './components/header';
 import InfoSection from './components/info';
 import NameSection from './components/name';
@@ -9,6 +10,7 @@ function App() {
       <HeaderSection />
       <InfoSection/>
       <NameSection/>
+      <EmailSection/>
     </div>
   );
 }

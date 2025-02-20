@@ -1,11 +1,17 @@
 .empty{
-    background: green;
+    background-color: green;
     height: 30px;
 }
 .info-section{
-    width: 90%;
+    /* width: 90%;
     border-radius: 50px;  
-    margin: 30px auto;   
+    margin: 30px auto;    */
+    /* background-color: green; */
+    /* text-align: center; */
+    width: 90%;
+    /* border-radius: 20px; */
+    margin: 20px auto;
+   
 }
 .thumbs{
     color: yellow;
