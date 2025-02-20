@@ -4,7 +4,7 @@ const EmailSection = () => {
 
   return (
     <div className="email-section">
-       <div className="email">
+       <div className="email-text">
           <label for="email">Email</label>
           <input type="text" id="fname" name="email"></input>
        </div>
