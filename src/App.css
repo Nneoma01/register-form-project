@@ -6,9 +6,12 @@
   /* box-sizing: border-box; */
   /* margin: 15px; */
   /* top: 0; */
-  background-color: whitesmoke;
+  background-color: rgb(217, 241, 217);
   padding: 10px;
 }
 input:focus{
   outline: none;
+}
+.tick{
+  color: red;
 }

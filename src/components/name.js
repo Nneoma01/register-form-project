@@ -5,8 +5,8 @@ const NameSection = () => {
   return (
     <div className="name-section">
        <div className="name">
-          <label for="name">First Name</label>
-          <input type="text" id="fname" name="name"></input>
+          <div for="name">First Name <label className="tick">*</label></div>
+          <input type="text" id="fname" name="name" placeholder="Your answer"></input>
        </div>
     </div>
   );
