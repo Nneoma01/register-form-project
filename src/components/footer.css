@@ -21,3 +21,15 @@
     color: rgb(21, 163, 21);
     font-weight: bold;
 }
+.footer-body{
+    color: rgb(101, 100, 100);
+    margin: 25px auto;
+    font-size: 0.9rem;
+}
+.footer-info{
+    text-align: center;
+}
+.footer-end{
+    font-size: 1.5rem;
+    
+}

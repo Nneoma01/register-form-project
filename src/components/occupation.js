@@ -6,7 +6,7 @@ const OccupationSection = () => {
     <div className="occupation-section">
        <div className="occupation-text">
           <label for="occupation">Occupation <label className="tick">*</label></label>
-          <input type="text" id="fname" name="email" placeholder="Your answer"></input>
+          <input type="text" id="fname" name="email" placeholder="Your answer" required></input>
        </div>
     </div>
   );
