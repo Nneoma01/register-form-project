@@ -1,4 +1,4 @@
-.name-section{
+.education-section{
     width: 90%;
     border-radius: 20px;  
     margin: 30px auto;  
@@ -6,6 +6,15 @@
     color: black;
     background-color: white;
 }
-.name{
+.education{
+    padding: 5px 0px 10px 0px;
+}
+.education-text{
     padding: 20px;
+}
+.education-checks{
+    padding: 5px 0px;
+}
+#name{
+    width: 90%;
 }

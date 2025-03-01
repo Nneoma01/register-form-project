@@ -20,7 +20,7 @@ const GenderSection = () => {
           </div>
           <div className="gender-checks">
              <input type="radio" id="fname" name="name" placeholder="Your answer"></input>
-             <label for="gender">Other:</label><input type="text" id="name" name="email"></input>
+             <label for="gender">Other:</label><input type="texts" id="name" name="email"></input>
           </div>
           
        </div>

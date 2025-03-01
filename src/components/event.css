@@ -1,4 +1,4 @@
-.name-section{
+.event-section{
     width: 90%;
     border-radius: 20px;  
     margin: 30px auto;  
@@ -6,6 +6,15 @@
     color: black;
     background-color: white;
 }
-.name{
+.event{
+    padding: 5px 0px 10px 0px;
+}
+.event-text{
     padding: 20px;
+}
+.event-checks{
+    padding: 5px 0px;
+}
+#name{
+    width: 90%;
 }

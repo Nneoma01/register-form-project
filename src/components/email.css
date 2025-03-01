@@ -1,4 +1,4 @@
-.occupation-section{
+.email-section{
     width: 90%;
     border-radius: 20px;  
     margin: 30px auto;  
@@ -6,14 +6,6 @@
     color: black;
     background-color: white;
 }
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid black;
-}
 .email-text{
-    padding: 30px;
+    padding: 20px;
 }

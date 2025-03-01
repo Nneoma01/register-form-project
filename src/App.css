@@ -3,10 +3,11 @@
   max-width: 100%;
   min-width: 90%;
   max-height: 100%;
+  font-family: sans-serif;
   /* box-sizing: border-box; */
   /* margin: 15px; */
   /* top: 0; */
-  background-color: rgb(217, 241, 217);
+  background-color: rgb(225, 243, 225);
   padding: 10px;
 }
 input:focus{
@@ -14,4 +15,22 @@ input:focus{
 }
 .tick{
   color: red;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: medium;
+}
+input[type=texts] {
+  width: 100%;
+  padding: 5px 5px;
+  /* margin: 8px 0; */
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: medium;
 }

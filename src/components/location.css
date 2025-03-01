@@ -1,4 +1,4 @@
-.name-section{
+.loaction-section{
     width: 90%;
     border-radius: 20px;  
     margin: 30px auto;  
@@ -6,6 +6,6 @@
     color: black;
     background-color: white;
 }
-.name{
+.loaction-text{
     padding: 20px;
 }
