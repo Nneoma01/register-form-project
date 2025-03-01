@@ -2,6 +2,7 @@ import './App.css';
 import EducationSection from './components/education';
 import EmailSection from './components/email';
 import EventSection from './components/event';
+import FooterSection from './components/footer';
 import GenderSection from './components/gender';
 import HeaderSection from './components/header';
 import InfoSection from './components/info';
@@ -21,6 +22,7 @@ function App() {
       <EducationSection/>
       <LocationSection/>
       <EventSection/>
+      <FooterSection/>
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.footer-head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.button{
+    border: 1px solid rgb(21, 163, 21);
+    background-color: rgb(21, 163, 21);
+    border-radius: 5px;
+}
+.submit{
+    padding: 10px 20px;
+    color: white;   
+}
+.footer{
+    width: 90%;
+    margin: 50px auto;
+}
+.clear{
+    color: rgb(21, 163, 21);
+    font-weight: bold;
+}
