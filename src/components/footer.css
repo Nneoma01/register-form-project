@@ -9,7 +9,7 @@
     background-color: rgb(21, 163, 21);
     border-radius: 5px;
 }
-.submit{
+.Submit{
     padding: 10px 20px;
     color: white;   
 }
@@ -20,6 +20,8 @@
 .clear{
     color: rgb(21, 163, 21);
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 .footer-body{
     color: rgb(101, 100, 100);

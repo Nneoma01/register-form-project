@@ -5,9 +5,9 @@ const FooterSection = () => {
   return (
     <div className="footer">
         <div className="footer-head">
-            <div className="button">
-                <div className="submit">Submit</div>
-            </div>
+            <button type="submit" className="button">
+              <div className="Submit">Submit</div>
+            </button>
             <div className="clear">Clear Form</div>
         </div>
         <div className="footer-body">

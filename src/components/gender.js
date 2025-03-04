@@ -7,20 +7,20 @@ const GenderSection = () => {
        <div className="gender-text">
           <div className="gender" for="email">Gender <label className="tick">*</label></div>
           <div className="gender-checks">
-             <input type="radio" id="fname" name="name" placeholder="Your answer"></input>
-             <label for="gender">Male</label>
+             <input type="radio" name="gender"></input>
+             <label htmlFor="gender">Male</label>
           </div>
           <div className="gender-checks">
-             <input type="radio" id="fname" name="name" placeholder="Your answer"></input>
-             <label for="gender">Female</label>
+             <input type="radio" name="gender"></input>
+             <label htmlFor="gender">Female</label>
           </div>
           <div className="gender-checks">
-             <input type="radio" id="fname" name="name" placeholder="Your answer"></input>
-             <label for="gender">Prefer not to say</label>
+             <input type="radio" name="gender"></input>
+             <label htmlFor="gender">Prefer not to say</label>
           </div>
           <div className="gender-checks">
-             <input type="radio" id="fname" name="name" placeholder="Your answer"></input>
-             <label for="gender">Other:</label><input type="texts" id="name" name="email"></input>
+             <input type="radio" name="gender"></input>
+             <label htmlFor="gender">Other:</label><input type="texts" id="name" name="email"></input>
           </div>
           
        </div>

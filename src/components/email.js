@@ -5,8 +5,8 @@ const EmailSection = () => {
   return (
     <div className="email-section">
        <div className="email-text">
-          <label for="email">Email <label className="tick">*</label></label>
-          <input type="text" id="fname" name="email" placeholder="Your answer" required></input>
+          <label htmlFor="email">Email <label className="tick">*</label></label>
+          <input type="text" name="email" placeholder="Your answer"  required></input>
        </div>
     </div>
   );

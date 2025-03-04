@@ -2,37 +2,38 @@ import "../components/education.css";
 
 const EducationSection = () => {
 
+
   return (
-    <div className="education-section">
+    <form className="education-section">
        <div className="education-text">
-          <div className="education" for="email">Education <label className="tick">*</label></div>
+          <div className="education">Education <label className="tick">*</label></div>
           <div className="education-checks">
-             <input type="radio" id="fname" name="name" ></input>
-             <label for="education">High School Graduate</label>
+             <input type="radio"  name="education" ></input>
+             <label htmlFor="education">High School Graduate</label>
           </div>
           <div className="education-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="education">Diploma</label>
+             <input type="radio"  name="education"></input>
+             <label htmlFor="education">Diploma</label>
           </div>
           <div className="education-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="education">Associate Degree</label>
+             <input type="radio"  name="education"></input>
+             <label htmlFor="education">Associate Degree</label>
           </div>
           <div className="education-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="eduaction">Degree</label>
+             <input type="radio"  name="education"></input>
+             <label htmlFor="eduaction">Degree</label>
           </div>
           <div className="education-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="eduaction">Masters</label>
+             <input type="radio"  name="education"></input>
+             <label htmlFor="eduaction">Masters</label>
           </div>
           <div className="education-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="education">PhD</label>
+             <input type="radio"  name="education"></input>
+             <label htmlFor="education">PhD</label>
           </div>
           
        </div>
-    </div>
+    </form>
   );
 }
 

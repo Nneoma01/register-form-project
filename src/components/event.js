@@ -5,30 +5,30 @@ const EventSection = () => {
   return (
     <div className="event-section">
        <div className="event-text">
-          <div className="event" for="email">Education <label className="tick">*</label></div>
+          <div className="event" for="email">How did you hear about this event? <label className="tick">*</label></div>
           <div className="event-checks">
-             <input type="radio" id="fname" name="name" ></input>
-             <label for="event">LinkedIn</label>
+             <input type="radio" name="event" ></input>
+             <label htmlFor="event">LinkedIn</label>
           </div>
           <div className="event-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="event">Instagram</label>
+             <input type="radio" name="event"></input>
+             <label htmlFor="event">Instagram</label>
           </div>
           <div className="event-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="event">Twitter (X)</label>
+             <input type="radio" name="event"></input>
+             <label htmlFor="event">Twitter (X)</label>
           </div>
           <div className="event-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="event">Family/Friends</label>
+             <input type="radio" name="event"></input>
+             <label htmlFor="event">Family/Friends</label>
           </div>
           <div className="event-checks">
-             <input type="radio" id="fname" name="name"></input>
-             <label for="event">Referral</label>
+             <input type="radio" name="event"></input>
+             <label htmlFor="event">Referral</label>
           </div>
           <div className="event-checks">
-             <input type="radio" id="fname" name="name"placeholder="Your answer"></input>
-             <label for="event">Other:</label><input type="texts" id="name" name="email"></input>
+             <input type="radio" name="event"placeholder="Your answer"></input>
+             <label htmlFor="event">Other:</label><input type="texts" id="name" name="email"></input>
           </div>
           
        </div>

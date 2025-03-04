@@ -5,8 +5,8 @@ const LocationSection = () => {
   return (
     <div className="loaction-section">
        <div className="loaction-text">
-          <label for="location">Location <label className="tick">*</label></label>
-          <input type="text" id="fname" name="location" placeholder="Your answer" required></input>
+          <label htmlFor="location">Location <label className="tick">*</label></label>
+          <input type="text" name="location" placeholder="Your answer" required/>
        </div>
     </div>
   );
