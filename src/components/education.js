@@ -9,29 +9,22 @@ const EducationSection = () => {
           <div className="education">Education <label className="tick">*</label></div>
           <div className="education-checks">
              <input type="radio"  name="education" ></input>High School Graduate
-             {/* <label htmlFor="education">High School Graduate</label> */}
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>
-             <label htmlFor="education">Diploma</label>
+             <input type="radio"  name="education"></input>Diploma
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>
-             <label htmlFor="education">Associate Degree</label>
+             <input type="radio"  name="education"></input>Associate Degree
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>
-             <label htmlFor="eduaction">Degree</label>
+             <input type="radio"  name="education"></input>Degree
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>
-             <label htmlFor="eduaction">Masters</label>
+             <input type="radio"  name="education"></input>Masters
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>
-             <label htmlFor="education">PhD</label>
-          </div>
-          
+             <input type="radio"  name="education"></input>PhD
+          </div>          
        </div>
     </div>
   );
