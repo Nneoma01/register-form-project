@@ -4,12 +4,12 @@ const EducationSection = () => {
 
 
   return (
-    <form className="education-section">
+    <div className="education-section" required>
        <div className="education-text">
           <div className="education">Education <label className="tick">*</label></div>
           <div className="education-checks">
-             <input type="radio"  name="education" ></input>
-             <label htmlFor="education">High School Graduate</label>
+             <input type="radio"  name="education" ></input>High School Graduate
+             {/* <label htmlFor="education">High School Graduate</label> */}
           </div>
           <div className="education-checks">
              <input type="radio"  name="education"></input>
@@ -33,7 +33,7 @@ const EducationSection = () => {
           </div>
           
        </div>
-    </form>
+    </div>
   );
 }
 

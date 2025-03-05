@@ -3,24 +3,20 @@ import "../components/gender.css";
 const GenderSection = () => {
 
   return (
-    <div className="gender-section">
+    <div className="gender-section" re>
        <div className="gender-text">
           <div className="gender" for="email">Gender <label className="tick">*</label></div>
           <div className="gender-checks">
-             <input type="radio" name="gender"></input>
-             <label htmlFor="gender">Male</label>
+             <input type="radio" name="gender"></input>Male
           </div>
           <div className="gender-checks">
-             <input type="radio" name="gender"></input>
-             <label htmlFor="gender">Female</label>
+             <input type="radio" name="gender"></input>Female
           </div>
           <div className="gender-checks">
-             <input type="radio" name="gender"></input>
-             <label htmlFor="gender">Prefer not to say</label>
+             <input type="radio" name="gender"></input>Prefer not to say
           </div>
           <div className="gender-checks">
-             <input type="radio" name="gender"></input>
-             <label htmlFor="gender">Other:</label><input type="texts" id="name" name="email"></input>
+             <input type="radio" name="gender"></input>Other: <input type="texts" id="name" name="email"></input>
           </div>
           
        </div>
