@@ -8,22 +8,22 @@ const EducationSection = ({ value, onChange }) => {
        <div className="education-text">
           <div className="education">Education <label className="tick">*</label></div>
           <div className="education-checks">
-             <input type="radio"  name="education" value={value} onChange={onChange}/>High School Graduate
+             <input type="radio"  name="education" value="High School Graduate" onChange={onChange}/>High School Graduate
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education" value={value} onChange={onChange}/>Diploma
+             <input type="radio"  name="education" value="Diploma" onChange={onChange}/>Diploma
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education" value={value} onChange={onChange}/>Associate Degree
+             <input type="radio"  name="education" value="Associate Degree" onChange={onChange}/>Associate Degree
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education" value={value} onChange={onChange}/>Degree
+             <input type="radio"  name="education" value="Degree" onChange={onChange}/>Degree
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education" value={value} onChange={onChange}/>Masters
+             <input type="radio"  name="education" value="Masters" onChange={onChange}/>Masters
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education" value={value} onChange={onChange}/>PhD
+             <input type="radio"  name="education" value="PhD" onChange={onChange}/>PhD
           </div>          
        </div>
     </div>
