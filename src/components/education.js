@@ -1,6 +1,6 @@
 import "../components/education.css";
 
-const EducationSection = () => {
+const EducationSection = ({ value, onChange }) => {
 
 
   return (
@@ -8,22 +8,22 @@ const EducationSection = () => {
        <div className="education-text">
           <div className="education">Education <label className="tick">*</label></div>
           <div className="education-checks">
-             <input type="radio"  name="education" ></input>High School Graduate
+             <input type="radio"  name="education" value={value} onChange={onChange}/>High School Graduate
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>Diploma
+             <input type="radio"  name="education" value={value} onChange={onChange}/>Diploma
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>Associate Degree
+             <input type="radio"  name="education" value={value} onChange={onChange}/>Associate Degree
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>Degree
+             <input type="radio"  name="education" value={value} onChange={onChange}/>Degree
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>Masters
+             <input type="radio"  name="education" value={value} onChange={onChange}/>Masters
           </div>
           <div className="education-checks">
-             <input type="radio"  name="education"></input>PhD
+             <input type="radio"  name="education" value={value} onChange={onChange}/>PhD
           </div>          
        </div>
     </div>

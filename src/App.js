@@ -24,8 +24,8 @@ function App() {
   });
   
   const handleChanges = (e) => {
-    setValues({ ...values, [e.target.name]: e.target.value });
-  };
+    setValues({ ...values, [e.target.name]: e.target.value});
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -33,7 +33,6 @@ function App() {
   }
   
   return (
-
     <form className="App-body" onSubmit={handleSubmit}>
       <HeaderSection />
       <InfoSection/>
